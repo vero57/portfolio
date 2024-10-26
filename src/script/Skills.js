@@ -24,16 +24,16 @@ function updateProgressBar() {
         progressBar1.textContent = '80%';
     }
     if (isElementInViewport(progressBar2)) {
-        progressBar2.style.width = '65%';
-        progressBar2.textContent = '65%';
+        progressBar2.style.width = '80%';
+        progressBar2.textContent = '80%';
     }
     if (isElementInViewport(progressBar3)) {
-        progressBar3.style.width = '45%';
-        progressBar3.textContent = '45%';
+        progressBar3.style.width = '60%';
+        progressBar3.textContent = '60%';
     }
     if (isElementInViewport(progressBar4)) {
-        progressBar4.style.width = '60%';
-        progressBar4.textContent = '60%';
+        progressBar4.style.width = '50%';
+        progressBar4.textContent = '50%';
     }
     if (isElementInViewport(progressBar5)) {
         progressBar5.style.width = '66%';
@@ -44,8 +44,8 @@ function updateProgressBar() {
         progressBar6.textContent = '55%';
     }
     if (isElementInViewport(progressBar7)) {
-        progressBar7.style.width = '25%';
-        progressBar7.textContent = '25%';
+        progressBar7.style.width = '10%';
+        progressBar7.textContent = '10%';
     }
     if (isElementInViewport(progressBar8)) {
         progressBar8.style.width = '62%';

@@ -58,7 +58,7 @@ const App = () => {
            <div className="contact-form-container">
            <form className="contact-form">
              <label htmlFor="name">Name</label>
-             <input type="text" id="name" name="name" required  placeholder='Your name'/>
+             <input type="text" id="name" name="name" required  placeholder='Your name' value={'contact form is not working for now'}/>
 
              <label htmlFor="email">Email</label>
              <input type="email" id="email" name="email" required placeholder='example@example.com'/>

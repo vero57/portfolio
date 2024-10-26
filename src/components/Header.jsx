@@ -1,6 +1,6 @@
 import '../styles/Header.css';
 import profilepic from '../assets/profilepic.png'
-import { FaInstagram, FaGithub, FaLinkedin} from "react-icons/fa";
+import { FaInstagram, FaGithub, FaDiscord} from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
                 1000,
                 'I am a Beginner',
                 1000,
-                'Aku mah gabisa apa-apa bang, ga kayak kamu',
+                'I am still learning',
                 1000
               ]}
                 wrapper="span"
@@ -32,7 +32,7 @@ function Header() {
             <div className="socialMedia">
                 <a href="https://www.instagram.com/yosuagerrard_/"><FaInstagram /></a>
                 <a href="https://github.com/vero57"><FaGithub /></a>
-                <a href=""><FaLinkedin /></a>
+                <a href="https://discordapp.com/users/639259643532541962"><FaDiscord /></a>
             </div>
         </div>
     </header>
