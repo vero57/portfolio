@@ -10,7 +10,7 @@ function About() {
             <h3>About</h3>
             <p>Halo semuanya perkenalkan nama saya adalah Yosua Gerrard Ferdinand, saya berasal dari Cibinong Kabupaten Bogor, Jawa Barat</p>
 
-            <p>Saat ini, saya adalah siswa kelas 12 di SMKN 1 Cibinong, berasal dari jurusan SIJA (Sistem Informasi Jaringan dan Aplikasi). Di tahun 2024, saya berumur 17 tahun, dan memiliki ketertarikan besar pada programming serta teknologi. Saya sangat menyukai bahasa pemrograman JavaScript dan LUA, dan saat ini sedang memperdalam Java dan JavaScript termasuk Frameworknya. Framework favorit saya termasuk JS dan Laravel, sementara untuk library, saya sangat menikmati menggunakan React JS. Di waktu luang, saya senang mengulik teknologi baru dan mengerjakan proyek pengembangan web pribadi.</p>
+            <p>Saat ini, saya adalah siswa kelas 12 di SMKN 1 Cibinong, berasal dari jurusan SIJA (Sistem Informasi Jaringan dan Aplikasi). Di tahun 2024, saya berumur 17 tahun, dan memiliki ketertarikan besar pada programming serta teknologi. Saya sangat menyukai bahasa pemrograman JavaScript dan LUA, dan saat ini sedang mempelajari dan memperdalam Java, JavaScript termasuk Frameworknya. Framework favorit saya adalah Next JS dan Laravel, sementara untuk library, saya sering menggunakan React JS. Di waktu luang, saya senang mengulik teknologi baru dan mengerjakan proyek pengembangan web pribadi.</p>
 
             <p>Pengalaman saya adalah membuat game Roblox menggunakan bahasa pemogramaan LUA dan software Roblox Studio. Lalu website yang saya pernah buat adalah Web portfolio, website untuk menonton film (Sejenis Netflix), website e-commerce, to-do list</p>
 
