@@ -1,5 +1,5 @@
 import '../styles/Header.css';
-import profilepic from '../assets/profilepic.png'
+import profilepic from '../assets/yosuaa.jpg'
 import { FaInstagram, FaGithub, FaDiscord} from "react-icons/fa";
 import { TypeAnimation } from 'react-type-animation';
 

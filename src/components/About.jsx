@@ -1,6 +1,7 @@
-import { FaHtml5, FaCss3, FaJava, FaReact, FaLaravel, FaPhp, FaPython, FaGit, FaGithub} from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJava, FaReact, FaLaravel, FaPhp, FaPython, FaGit, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiDart, SiFlutter } from "react-icons/si"; // Import Dart and Flutter icons
 
 import '../styles/About.css';
 function About() {
@@ -8,16 +9,15 @@ function About() {
     <section id="about">
         <div className="wrapper">
             <h3>About</h3>
-            <p>Halo semuanya perkenalkan nama saya adalah Yosua Gerrard Ferdinand, saya berasal dari Cibinong Kabupaten Bogor, Jawa Barat</p>
-
-            <p>Saat ini, saya adalah siswa kelas 12 di SMKN 1 Cibinong, berasal dari jurusan SIJA (Sistem Informasi Jaringan dan Aplikasi). Di tahun 2024, saya berumur 17 tahun, dan memiliki ketertarikan besar pada programming serta teknologi. Saya sangat menyukai bahasa pemrograman JavaScript dan LUA, dan saat ini sedang mempelajari dan memperdalam Java, JavaScript termasuk Frameworknya. Framework favorit saya adalah Next JS dan Laravel, sementara untuk library, saya sering menggunakan React JS. Di waktu luang, saya senang mengulik teknologi baru dan mengerjakan proyek pengembangan web pribadi.</p>
-
-            <p>Pengalaman saya adalah membuat game Roblox menggunakan bahasa pemogramaan LUA dan software Roblox Studio. Lalu website yang saya pernah buat adalah Web portfolio, website untuk menonton film (Sejenis Netflix), website e-commerce, to-do list</p>
+            <p>My name is Yosua Gerrard Ferdinand, a student at SMKN 1 Cibinong with a strong passion for Game Development and Software Engineering. Thanks to the advancements in technology—especially YouTube—I have been able to learn programming independently and explore the world of software development.</p>
+            <p>Currently, I am deepening my knowledge in JavaScript, Dart, Java, and PHP to continuously enhance my skills in this field. One of my proudest experiences was participating in the "40 Game Project" alongside other talented developers.</p>
+            <p>I am always eager to learn, create, and contribute to innovative projects.</p>
 
             <h4>Programming Language and Tools</h4>
             <div className="skills">
                 <FaHtml5 /> <FaCss3 /> <IoLogoJavascript />
                 <FaJava /> <FaReact /> <RiTailwindCssFill /> <FaLaravel /> <FaPhp /> <FaPython /> <FaGit /> <FaGithub />
+                <SiDart /> <SiFlutter />
             </div>
         </div>
     </section>

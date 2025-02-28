@@ -5,41 +5,70 @@ nav {
     top: 0;
     z-index: 100;
     text-transform: uppercase;
-  }
-  nav > .wrapper {
+    padding: 0 10px;
+}
+nav > .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .menu {
-    width: 35%;
-  }
-  
-  .logo {
+    width: calc(100% - 20px); 
+}
+
+.menu {
+    width: auto;
+    margin-left: auto; 
+}
+
+.logo {
     display: flex;
     align-items: center;
-  }
-  .logo > a {
+}
+.logo > a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: 8px;
-  }
-  .menu > ul {
+}
+.menu > ul {
     display: flex;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    justify-content: space-between;
-  }
-  
-  .menu > ul > li > a {
+    gap: 10px;
+}
+
+.menu > ul > li > a {
     text-decoration: none;
     color: #fff;
-  }
-  nav > .wrapper > button {
+    transition: color 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+.menu > ul > li > a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #aa392d;
+    transition: width 0.3s ease;
+}
+
+.menu > ul > li > a:hover::after {
+    width: 100%; 
+    left: 0;
+    background: #aa392d;
+}
+
+.menu > ul > li > a:hover {
+    color: #aa392d; 
+    background-color: #333;
+}
+
+nav > .wrapper > button {
     cursor: pointer;
     display: none;
     position: absolute;
@@ -48,12 +77,12 @@ nav {
     border: 0px;
     background-color: transparent;
     padding: 0px;
-  }
-  nav > .wrapper > button > svg {
+}
+nav > .wrapper > button > svg {
     color: #fff;
     font-size: 50px;
-  }
-  @media only screen and (max-width: 1000px) {
+}
+@media only screen and (max-width: 1000px) {
     .menu > ul {
       display: none;
     }
@@ -86,4 +115,4 @@ nav {
     .menu > ul > li > a:hover {
       background-color: #222831;
     }
-  }
+}
